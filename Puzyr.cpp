@@ -1,4 +1,4 @@
-// Пузырек.cpp: определяет точку входа для консольного приложения.
+// ГЏГіГ§Г»Г°ГҐГЄ.cpp: Г®ГЇГ°ГҐГ¤ГҐГ«ГїГҐГІ ГІГ®Г·ГЄГі ГўГµГ®Г¤Г  Г¤Г«Гї ГЄГ®Г­Г±Г®Г«ГјГ­Г®ГЈГ® ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГї.
 //
 
 #include "stdafx.h"
@@ -40,7 +40,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	cout<<"massiv_1: ";
 	for (int k=0; k<N; k++)
 	{
-	cout<< massiv[k]<<"";
+	cout<< massiv[k]<<" ";
 	}
 	cout<< "\n\n";
 
@@ -49,7 +49,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	cout<<"massiv_2: ";
 	for (int k=0; k<N; k++)
 	{
-	cout<< massiv[k]<<"";
+	cout<< massiv[k]<<" ";
 	}
 	cout<< "\n\n";
 	_getch();
