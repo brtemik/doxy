@@ -6,7 +6,7 @@
 #include <conio.h>
 using namespace std;
 
-void puzyr(int* Mas, int Kolvo)
+void puzyr(unsigned char* Mas, int Kolvo)
 {
 	bool exit = false;
 
@@ -30,7 +30,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	int N;
 	cin >> N;
 
-	int *massiv = new int[N];
+	unsigned char *massiv = new unsigned char[N];
 	for (int k=0; k<N; k++)
 	{
 		cout << "a"<<k<<"=";
